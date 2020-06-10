@@ -65,3 +65,42 @@ a {
 a:hover {
     color: rgb(24, 20, 20);
 }
+
+#wrapper{
+    width: 20em;
+    opacity: 0;
+    -webkit-animation: type2 3s steps(40, end);
+    animation: type2 3s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+}
+  
+@-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+} 
