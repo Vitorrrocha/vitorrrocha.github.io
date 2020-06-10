@@ -20,6 +20,12 @@ body{
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
+    width: 20em;
+    opacity: 0;
+    -webkit-animation: type2 3s steps(40, end);
+    animation: type2 3s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
 
 h1 {
@@ -66,15 +72,6 @@ a:hover {
     color: rgb(24, 20, 20);
 }
 
-#wrapper{
-    width: 20em;
-    opacity: 0;
-    -webkit-animation: type2 3s steps(40, end);
-    animation: type2 3s steps(40, end);
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-  
 @keyframes type2 {
     0% {
       width: 0;
