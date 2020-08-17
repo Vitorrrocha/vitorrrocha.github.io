@@ -98,6 +98,7 @@ button:active {
     
     .imgProfile{
         width: 280px;
+        margin: 0.2rem;
     }
 
     .name {
