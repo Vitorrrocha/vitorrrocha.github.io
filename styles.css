@@ -71,17 +71,18 @@ body.dark-mode {
     color: #665;
     font-weight: 300;
     display: flex;
-    justify-content: space-between;
 }
 
 .link > a {
     margin-left: 4rem;
     text-decoration: none;
     cursor: pointer;
+    color: #131212;
+    font-weight: bolder;
 }
 
 .link > a.first{
-    margin-right: 4.1rem;
+    margin-left: 4.9rem;
 }
 
 button:active {
