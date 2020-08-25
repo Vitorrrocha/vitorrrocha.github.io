@@ -89,6 +89,26 @@ button:active {
     filter: invert(100%);
 }
 
+.copy {
+    width: 350px;
+    color: rgba(0, 0, 0, 0.658);
+    margin: 5rem auto;
+    font-weight: 500;
+}
+
+.copy a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+.copy a:hover{
+    color: rgb(49, 105, 226);
+    font-weight: bold;
+}
+
 @media (min-width: 800px) {
      .content {
         padding-top: 5rem;
