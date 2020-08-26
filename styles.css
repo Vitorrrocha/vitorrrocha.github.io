@@ -17,6 +17,10 @@ body.dark-mode {
     min-width: 300px;
 }
 
+.content a:hover {
+    color: rgb(49, 105, 226);
+}
+
 .imgProfile {
     width: 170px;
     border-radius: 50%;
@@ -105,7 +109,6 @@ button:active {
 }
 
 .copy a:hover{
-    color: rgb(49, 105, 226);
     font-weight: bold;
 }
 
